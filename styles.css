@@ -1,0 +1,241 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.hero-video {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+.hero-video h1{
+  font-size: 10rem;
+  font-family: cursive ;
+}
+
+.video-background {
+  position: absolute;
+  
+  width: 100%;
+  height: 150vh !;
+  object-fit: contain;
+  
+  z-index: -1; /* Sends the video behind the content */
+}
+
+
+header .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 100% !important;
+  background-color: transparent;
+}
+
+nav .logo {
+  height: 55px; /* Adjust the height as needed */
+  width: auto;  /* Maintain aspect ratio */
+  margin-right: 1000px;
+}
+
+
+nav ul {
+  list-style: none;
+  width: 100%;
+  background-color: aqua
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+  background-color: red;
+  
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  margin-right: 10px;
+  border-right: 3px solid black;
+  
+}
+
+a:hover {
+  color: gold;
+} 
+
+/* Main Section Styles */
+
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+/* Gallery Frames */
+.frameone, .frametwo, .framethree, .framefour, .framefive, .framesix {
+  width: 400px;
+  height: 500px;
+  background-size: cover;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+}
+
+/* Specific Background Images */
+.frameone { background-image: url(./assests/galary\ \(1\).jpeg); }
+.frametwo { background-image: url(./assests/galary\ \(2\).jpeg); }
+.framethree { background-image: url(./assests/galary\ \(3\).jpeg); }
+.framefour { background-image: url(./assests/1.jpeg); }
+.framefive { background-image: url(./assests/2.jpeg); }
+.framesix { background-image: url(./assests/galary\ \(6\).jpeg); }
+
+/* Hero Section */
+.one {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  color: white;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #a19b9b;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+  bottom: 0;
+}
+
+button {
+  height: 30px;
+  width: 80px;
+  cursor: pointer;
+  background-color: red;
+}
+
+/* Section Two Styles */
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+
+.responsive-container-block big-container{
+  height: 100vh;
+  width: 100%;
+  background-color: red;
+}
+/* Section Three Styles */
+.three {
+  height: 100;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.last{
+  height: 100vh;
+  width: 100%;
+  
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  font-size: 30px;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Styling for the navbar */
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+ 
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+} */
+
+/* Product display styling */
+.product-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 30%;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.product a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+.product a:hover {
+  color: #000000;
+}
+
+
